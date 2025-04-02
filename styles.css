@@ -1,0 +1,158 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+body {
+  border: 5px solid #00c6ac;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+  padding: 40px;
+}
+
+.playlist {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.playlist__column {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.playlist__column:first-child {
+  position: absolute;
+  left: 0px;
+}
+
+.music-select {
+  display: flex;
+  margin: 45px 0px;
+}
+
+.music-select__img {
+  height: 140px;
+  width: 140px;
+  background-color: #ffbc13;
+  border: 3px solid black;
+  border-radius: 10%;
+  position: relative;
+}
+
+.music-select__img i {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.music-select__song {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.music-select__song-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.music-select__song-singer {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.operation-play {
+  height: 60px;
+  width: 180px;
+  border: 3px solid black;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 7px;
+}
+
+.operation-play span {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.operation-like,
+.operation-add {
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 7px;
+}
+
+.music-list {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.music-list-frame {
+  display: flex;
+}
+
+.music-list-box {
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  border-radius: 18px;
+}
+
+.music-list-frame__red {
+  background-color: #f85a2b;
+}
+
+.music-list-frame__pink {
+  background-color: #ff89bc;
+}
+
+.music-list-frame__blue {
+  background-color: #1947e5;
+}
+
+.music-list-frame__mint {
+  background-color: #00c6ac;
+}
+
+.music-list__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4px 15px;
+}
+
+.music-list__info span {
+  display: block;
+}
+
+.music-list__info-song {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.music-list__info-singer {
+  color: rgba(0, 0, 0, 0.6);
+}
